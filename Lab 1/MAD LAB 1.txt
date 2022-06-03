@@ -1,0 +1,65 @@
+LAB 1
+
+
+1.
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+
+
+2.
+        Pattern 1
+
+public class Main
+{
+	public static void main(String[] args) {
+		/*for(int i=1;i<5;i++)
+		{
+		    for(int j=i;j<4;j++)
+		    {
+		        System.out.print(" ");
+		    }
+		    for(int k=0;k<i;k++)
+		    {
+		        System.out.print("* ");
+		    }
+		    System.out.println();
+		}*/
+		
+		
+	Pattern 2
+	
+	for(int i=0;i<4;i++)
+	{for(int k=0;k<i;k++)
+	    {
+	        System.out.print(" ");
+	    }
+	    for(int j=4;j>i;j--)
+	    {
+	        System.out.print("* ");
+	    }
+	    
+	    System.out.println(" ");
+	}
+	}
+}
+
+3.
+import java.util.Scanner;  
+public class Main
+{
+	public static void main(String[] args) 
+	{
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter number: ");       
+        int n= sc.nextInt();
+        for(int i=1; i <= 10; i++)  
+        {  
+            System.out.println(n+" X "+i+" = "+n*i);  
+        } 
+	}
+}
+
